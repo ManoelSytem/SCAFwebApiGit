@@ -26,7 +26,7 @@ namespace SCAFwebApi
 
                 if (user != "Manoel" )
                 {
-                    context.SetError("invalid_grant", "The user name or password is incorrect.");
+                    context.SetError("invalid_grant", "O nome de usuário ou senha está incorreto");
                     return;
                 }
 
